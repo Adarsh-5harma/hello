@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+      background-image: url(regbg.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: round;
+    }
+    h1{
+        text-align: center;
+    }
+
+    #input{
+        display: flex;
+            border: none; /* Remove all borders */
+            border-bottom: 3px solid ; /* Add a colored bottom border */
+            border-radius: 0px; /* Remove rounded corners */
+            width: 80%;
+            justify-self: center;
+            border-color:  #08ddb2;
+    }
+
+    #checkbox{
+        border: 2px solid #21c2f3;
+            font-size: 30px !important;
+            border-radius: 0%;}
+
+            .form-check{
+  margin: auto;
+  font-size: 8px;
+  width: 78%;
+}
+  </style>
+</head>
+<body >
+    <div class="form-container" style="background-color: azure; height: 600px; width: 550px;  ; margin: bottom 100px; margin-top: 100px; justify-self: center; border-radius: 2%;" ><br>
+        <h1 style="background-color: aquamarine; justify-content: center; ">*Registration Form*</h1><br>
+        <section id="form">
+            <!--This is Google Form -->
+            <form action="submit">
+                
+                   
+                    <input id="input" type="text" class="form-control" placeholder="Name"><br>
+                    
+                 
+                    <input id="input" type="email" class="form-control" placeholder="Email"><br>
+                    <input id="input" type="text" class="form-control" placeholder="Country"><br>
+                    <input id="input" type="tel" class="form-control" placeholder="phone"><br>
+                    <input id="input" type="password" class="form-control" placeholder="password"><br>
+                    <div class="form-check mb-3">
+                    
+                <button style="display: flex; justify-content: center; margin: auto; background: linear-gradient( to right, #21c2f3, #21a9a9,#00ffcc); border: none;" type="button" class="btn btn-primary">Create Account</button><br>
+                <h5 style="text-align: center;">Already have an account? <a href="Nagarik.html"><strong style="color: #21c2f3;" >Sign in</strong></h5></a>
+            </form>
+       
+        </section>
+    
+    </div>
+</body>
+</html>
